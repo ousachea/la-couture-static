@@ -1,0 +1,1 @@
+import{i as e}from"#entry";import{n as t}from"./BSC_m2Zk.js";function n(){let{data:n}=e(`/api/settings`,{key:`site-settings`,default:()=>null},`$q04CVxBgl2`),{l:r}=t();return{settings:n,text:e=>{let t=n.value?e(n.value):void 0;return t?.en.trim()?r(t):void 0}}}export{n as t};

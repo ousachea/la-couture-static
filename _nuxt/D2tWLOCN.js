@@ -1,0 +1,1 @@
+import"#entry";function e(e){}export{e as t};

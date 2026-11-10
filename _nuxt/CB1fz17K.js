@@ -1,0 +1,1 @@
+var e=e=>e.normalize(`NFKD`).replace(/[̀-ͯ]/g,``).toLowerCase().replace(/[^a-z0-9]+/g,`-`).replace(/(^-|-$)/g,``).slice(0,80),t=e=>/^[\p{L}\p{M}\p{N}]+(?:-[\p{L}\p{M}\p{N}]+)*$/u.test(e)&&e.length<=100;export{e as n,t};

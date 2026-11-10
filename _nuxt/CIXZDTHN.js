@@ -1,0 +1,1 @@
+import{i as e}from"#entry";import{n as t}from"./BSC_m2Zk.js";function n(n){let{data:r}=e(`/api/categories/${n}`,{key:`categories-${n}`,default:()=>[]},`$5Y_9JhSwYj`),{l:i}=t();return{categories:r,nameOf:e=>{let t=r.value.find(t=>t.id===e);return t?i(t.name):``}}}export{n as t};

@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./Cnxdjct7.js","./6msziLB2.js"])))=>i.map(i=>d[i]);
+import{t as e}from"./BSHLMYcn.js";import{t}from"./D6XF_qvo.js";var n;async function r(){n??=t(()=>import(`./Cnxdjct7.js`),__vite__mapDeps([0,1]),import.meta.url);let[{db:r},i]=await Promise.all([e(),n]);return{db:r,fs:i}}async function i(t,n,i){let{db:a,fs:o}=await r(),{auth:s}=await e(),c=s.currentUser?.uid;c&&await o.addDoc(o.collection(a,`activityLogs`),{actorUid:c,action:t,target:n,label:i??``,at:new Date().toISOString()}).catch(()=>{})}export{i as n,r as t};

@@ -1,0 +1,1 @@
+import{l as e,s as t}from"./ClRU-NC5.js";import{n}from"./BSHLMYcn.js";var r=t(async t=>{let{state:r,whenReady:i}=n();if(await i(),r.value.status!==`admin`)return e({path:`/admin/login`,query:{redirect:t.fullPath}})});export{r as default};
